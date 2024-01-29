@@ -1,6 +1,5 @@
-﻿namespace Ecommerce.Services
+﻿namespace Ecommerce.Services;
+
+public interface IECommerceService
 {
-    public interface IECommerceService
-    {
-    }
 }

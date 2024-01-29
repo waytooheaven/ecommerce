@@ -1,5 +1,5 @@
 ﻿namespace Ecommerce.Models;
-public class Product : Base
+public sealed class Product : Base
 {
     public int Stock { get; set; }
     public string? Name { get; set; }

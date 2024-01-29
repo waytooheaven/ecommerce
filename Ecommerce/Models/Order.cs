@@ -1,5 +1,5 @@
 ﻿namespace Ecommerce.Models;
-public class Order : Base
+public sealed class Order : Base
 {
     public int CustomerId { get; set; }
     public int ProductId { get; set; }

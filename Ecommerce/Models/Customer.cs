@@ -1,5 +1,5 @@
 ﻿namespace Ecommerce.Models;
-public class Customer : Base
+public sealed class Customer : Base
 {
     public string? Name { get; set; }
     public string? Surname { get; set; }
