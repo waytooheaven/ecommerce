@@ -8,5 +8,5 @@ public sealed class MasterContext : DatabaseContext
     {
     }
 
-    //the main idea of this wrapper is to add more functionality like a method here, this is open to extension closed to modification principle of SOLID
+    //the main idea of this wrapper is to add more functionality like a method here, this is open to extension closed to modification principle of SOLID like Mongo bindings
 }
